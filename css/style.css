@@ -1,0 +1,24 @@
+#adut_label {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 28px;
+  padding: 0 8px;
+  color: rgb(162, 160, 162);
+  font-size: 12px;
+  cursor: pointer;
+  border-radius: 6px;
+
+  transition: all .2s ease-in-out;
+}
+
+#adut_label:hover,
+#adut_label:has(#adut_checkbox:checked) {
+  color: rgb(245, 244, 243);
+  background-color: rgba(255, 255, 255, 0.06);
+}
+
+#adut_checkbox {
+  margin-right: 4px;
+  transition: all .2s ease-in-out;
+}
